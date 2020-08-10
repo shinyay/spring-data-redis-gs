@@ -11,6 +11,12 @@ Overview
 $ docker container run --rm --name redis -p 6379:6379 -d redis
 ```
 
+
+```shell script
+$ docker exec -it redis bash
+# redis-cli
+127.0.0.1:6379>
+```
 ## Features
 
 - feature:1
