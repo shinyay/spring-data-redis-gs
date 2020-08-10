@@ -11,4 +11,6 @@ class Receiver {
         logger.info("Received <$message>")
         counter.incrementAndGet()
     }
+
+    fun getCount() = counter.get()
 }
