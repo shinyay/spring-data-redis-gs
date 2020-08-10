@@ -6,6 +6,11 @@ Overview
 
 ## Demo
 
+###
+```shell script
+$ docker container run --rm --name redis -p 6379:6379 -d redis
+```
+
 ## Features
 
 - feature:1
