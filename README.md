@@ -1,11 +1,14 @@
-# Name
+# Spring Data Redis Getting Started
 
-Overview
+Simple Application using Spring Data Redis with Redis Container run by Docker
 
 ## Description
 
-## Demo
+### Dependency
+- spring-boot-starter-data-redis
 
+## Demo
+### 
 ###
 ```shell script
 $ docker container run --rm --name redis -p 6379:6379 -d redis
