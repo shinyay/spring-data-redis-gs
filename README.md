@@ -1,6 +1,6 @@
 # Spring Data Redis Getting Started
 
-Simple Application using Spring Data Redis with Redis Container run by Docker
+Simple Application using Spring Data Redis to publish and subscribe to messages sent with Redis.
 
 ## Description
 
