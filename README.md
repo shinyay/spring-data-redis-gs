@@ -9,17 +9,18 @@ Simple Application using Spring Data Redis to publish and subscribe to messages 
 
 ## Demo
 ### 
-###
+### Run Redis Container
 ```shell script
 $ docker container run --rm --name redis -p 6379:6379 -d redis
 ```
 
-
+#### Access Redis in Container
 ```shell script
 $ docker exec -it redis bash
 # redis-cli
 127.0.0.1:6379>
 ```
+
 ## Features
 
 - feature:1
