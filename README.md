@@ -3,6 +3,7 @@
 Simple Application using Spring Data Redis to publish and subscribe to messages sent with Redis.
 
 ## Description
+![spring-redis](images/spring-redis.png)
 
 ### Dependency
 - spring-boot-starter-data-redis
