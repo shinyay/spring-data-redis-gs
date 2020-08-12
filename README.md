@@ -8,8 +8,18 @@ Simple Application using Spring Data Redis to publish and subscribe to messages 
 ### Dependency
 - spring-boot-starter-data-redis
 
+### Redis Configuration
+- RedisTemplate
+  - RedisConnectionFactory
+- MessageListenerAdapter
+- RedisMessageListenerContainer
+  - Topic
+    - ChannelTopic
+      - *maps to a Redis channel*
+    - PatternTopic
+      - *matching Multiple channels*
+
 ## Demo
-### 
 ### Run Redis Container
 ```shell script
 $ docker container run --rm --name redis -p 6379:6379 -d redis
